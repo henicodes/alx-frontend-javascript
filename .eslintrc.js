@@ -33,6 +33,7 @@ module.exports = {
         files: ['*.js'],
         excludedFiles: 'babel.config.js',
       }
+        
     ]
   };
   
