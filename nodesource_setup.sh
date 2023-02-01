@@ -352,6 +352,7 @@ local_yarn_key="$keyring/yarnkey.gpg"
 
 print_status """Run \`${bold}sudo apt-get install -y ${NODEPKG}${normal}\` to install ${NODENAME} and npm
 ## You may also need development tools to build native addons:
+
      sudo apt-get install gcc g++ make
 ## To install the Yarn package manager, run:
      curl -sL $yarn_key_url | gpg --dearmor | sudo tee $local_yarn_key >/dev/null
